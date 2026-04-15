@@ -25,13 +25,13 @@ const BlogTypeOne = ({ active, description, id, image, title }: BlogTypeOneProps
       </div>
 
       <div className='p-6'>
-        <h2 className='text-2xl font-bold mb-2 group-hover:text-red-600 duration-700 transition'>{title}</h2>
+        <h2 className='text-2xl font-bold mb-2 group-hover:text-red-900 duration-700 transition'>{title}</h2>
 
         <p className='line-clamp-1 mb-5'>
           {description}
         </p>
         <Link href={`blog/${id}`}>
-          <div className='inline-block w-full px-4 py-2 bg-red-600 text-white text-center
+          <div className='inline-block w-full px-4 py-2 bg-red-800 text-white text-center
           rounded-lg hover:bg-red-700 duration-700 transition'>
             Detail
           </div>

@@ -14,8 +14,8 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <div className="container mt-4 mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="container mt-4 mx-auto mb-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:px-10">
 
           <div className="lg:col-span-3 border-2 items-center justify-center flex flex-col p-4">
 

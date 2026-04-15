@@ -15,7 +15,7 @@ const BlogPage = () => {
   return (
     <>
       <div className='container mx-auto mt-8'>
-        <h2 className='text-2xl font-semibold text-center'>Tip 1</h2>
+        <h2 className='text-2xl font-semibold text-center'>Blogs Of Today</h2>
         <div className='grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-4 gap-8'>
           {blogs.map((blog, index) => (
             <BlogTypeOne key={index}
@@ -31,7 +31,7 @@ const BlogPage = () => {
       </div>
 
       <div className='container mx-auto mt-8'>
-        <h2 className='text-2xl font-semibold text-center'>Tip 2</h2>
+        <h2 className='text-2xl font-semibold text-center'>Blogs Of Yesterday</h2>
 
       </div>
 

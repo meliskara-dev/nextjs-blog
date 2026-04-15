@@ -36,17 +36,17 @@ const BlogDetailPage = async ({ params }: BlogDetailPage) => {
                         src={blog.image}
                         width={1024}
                         height={768}
-                        className='w-full h-98 object-cover  transition-transform transform group-hover:scale-105 duration-700'
+                        className='w-full h-98 object-cover  transition-transform transform group-hover:scale-105 duration-700 rounded-xl'
                     />
 
-                    <h2 className='text-2xl mt-4 font-bold mb-2 group-hover:text-red-600 duration-700 transition'>{blog.title}</h2>
-                    <p className='mb-5'>
+                    <h2 className='text-2xl mt-4 font-bold mb-2 p-2'>{blog.title}</h2>
+                    <p className='mb-5 p-2'>
                         {blog.description}
                     </p>
 
                     <Link href="/blog">
-                        <div className='mt-6 inline-black w-full px-4 py-2 bg-red-600
-                            text-white text-center rounded-lg hover:bg-red-700 duration-700 transition'>Back to Blog</div>
+                        <div className='mt-6 inline-black w-full px-4 py-2 bg-red-800
+                            text-white text-center rounded-lg hover:bg-red-900 duration-700 transition'>Back to Blog</div>
                     </Link>
                 </div>
             </div>
